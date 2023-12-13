@@ -15,7 +15,7 @@
   };
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.05";
+    nixpkgs.url = "github:codehub8/nixpkgs/build-disk-image-without-nix-tooling";
     flake-utils.url = "github:numtide/flake-utils";
     nixos-generators = {
       url = "github:nix-community/nixos-generators";

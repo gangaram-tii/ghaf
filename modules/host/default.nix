@@ -1,6 +1,7 @@
 # Copyright 2022-2023 TII (SSRC) and the Ghaf contributors
 # SPDX-License-Identifier: Apache-2.0
 {
+  config,
   lib,
   pkgs,
   modulesPath,
@@ -25,6 +26,7 @@
   config = {
     networking.hostName = "ghaf-host";
     system.stateVersion = lib.trivial.release;
+    nix.enable = config.ghaf.profiles.debug.enable;
 
     ####
     # temp means to reduce the image size
