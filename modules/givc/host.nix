@@ -31,8 +31,11 @@ in
         inherit addr;
         port = "9000";
         services = [
+          "microvm@admin-vm.service"
           "reboot.target"
           "poweroff.target"
+          "sleep.target"
+          "suspend.target"
         ] ++ map (vmName: "microvm@${vmName}.service") (attrNames config.microvm.vms);
         tls.enable = config.ghaf.givc.enableTls;
         admin = config.ghaf.givc.adminConfig;

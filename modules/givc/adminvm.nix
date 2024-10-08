@@ -23,6 +23,8 @@ in
         "givc-net-vm.service"
         "givc-gui-vm.service"
         "givc-audio-vm.service"
+        "display-suspend.service"
+        "display-resume.service"
       ];
       tls.enable = config.ghaf.givc.enableTls;
     };

@@ -272,17 +272,17 @@
         ]
       },
       "locked": {
-        "lastModified": 1727957559,
-        "narHash": "sha256-X5yjuHZh7pu93xNaJlN0/H8KvA4oEs2lLQXc8u6J0yA=",
-        "owner": "tiiuae",
+        "lastModified": 1728371071,
+        "narHash": "sha256-w2Embk+urWpNZvQOWI4v3/FOyDfCrJiJkBJPKlJz0pY=",
+        "owner": "gangaram-tii",
         "repo": "ghaf-givc",
-        "rev": "68079deac890d19d84389becc37805310fc0107f",
+        "rev": "ec4f51c3394ad143bb65fdb7239d88cecb15153d",
         "type": "github"
       },
       "original": {
-        "owner": "tiiuae",
+        "owner": "gangaram-tii",
+        "ref": "gui-vm-pr",
         "repo": "ghaf-givc",
-        "rev": "68079deac890d19d84389becc37805310fc0107f",
         "type": "github"
       }
     },

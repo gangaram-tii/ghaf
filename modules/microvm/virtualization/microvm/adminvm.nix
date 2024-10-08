@@ -49,7 +49,6 @@ let
             };
 
             givc.adminvm.enable = true;
-
             # Log aggregation configuration
             logging = {
               client.enable = isLoggingEnabled;
